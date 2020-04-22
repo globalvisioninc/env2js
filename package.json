@@ -1,7 +1,7 @@
 {
   "name": "@globalvisioninc/env2js",
   "description": "env2js pre-compiled binaries",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "collaborators": [
     "majoyal <majoyal@globalvision.co>"
   ],
@@ -15,7 +15,7 @@
     "url": "https://github.com/globalvisioninc/env2js"
   },
   "bin": {
-    "env2js2": "./index.js"
+    "env2js": "./index.js"
   },
   "files": [
     "dist/linux-*/",
