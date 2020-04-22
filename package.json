@@ -1,0 +1,25 @@
+{
+  "name": "@globalvisioninc/env2js",
+  "description": "env2js pre-compiled binaries",
+  "version": "1.0.1",
+  "collaborators": [
+    "majoyal <majoyal@globalvision.co>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/globalvisioninc/env2js"
+  },
+  "bin": {
+    "env2js2": "./index.js"
+  },
+  "files": [
+    "dist/linux-*/",
+    "dist/windows-*/",
+    "index.js"
+  ]
+}
