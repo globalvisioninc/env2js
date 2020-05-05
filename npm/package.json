@@ -1,7 +1,7 @@
 {
   "name": "@globalvisioninc/env2js",
   "description": "env2js pre-compiled binaries",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "collaborators": [
     "majoyal <majoyal@globalvision.co>"
   ],
@@ -20,6 +20,7 @@
   "files": [
     "dist/linux-*/",
     "dist/windows-*/",
+    "dist/darwin-*/",
     "index.js"
   ]
 }

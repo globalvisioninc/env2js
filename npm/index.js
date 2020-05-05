@@ -8,8 +8,9 @@ let platform;
 let arch;
 let ext = "";
 
-// TODO: support macOS and x32
-if (process.platform.match(/win/)) {
+if (process.platform.match(/darwin/)) {
+  platform = "darwin";
+} else if(process.platform.match(/win/)) {
   platform = "windows";
   ext = ".exe";
 } else {
@@ -18,7 +19,7 @@ if (process.platform.match(/win/)) {
 if (process.arch.match(/x64/)) {
   arch = "amd64";
 } else {
-  arch = "x32";
+  arch = "386";
 }
 
 let command = path.join(
